@@ -7,7 +7,7 @@ RUN set -x \
   && cd /tmp/build \
   && pnpm install --prod
 
-FROM python:3.11-alpine
+FROM python:3.12-alpine
 
 ARG QL_MAINTAINER="whyour"
 LABEL maintainer="${QL_MAINTAINER}"
